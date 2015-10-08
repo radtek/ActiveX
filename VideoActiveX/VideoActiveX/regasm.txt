@@ -1,0 +1,5 @@
+regasm /codebase "C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\Release\TiTGActiveXVideoControl.dll"
+
+regasm /u "C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\Release\TiTGActiveXVideoControl.dll"
+
+regasm /u "C:\Windows\SysWow64\MicrosoftUpdateCatalogWebControl.dll"

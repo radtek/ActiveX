@@ -1,0 +1,33 @@
+[version]
+ signature="$CHICAGO$"
+ AdvancedINF=2.0
+
+;[Add.Code]
+; ActiveXVideoMsiInstaller.msi=ActiveXVideoMsiInstaller.msi
+; setup.exe=setup.exe
+; RunFromCAB.exe=RunFromCAB.exe
+
+;[RunFromCAB.exe]
+; file-win32-x86=thiscab
+
+;[setup.exe]
+; file-win32-x86=thiscab
+
+;[ActiveXVideoMsiInstaller.msi]
+; file-win32-x86=thiscab
+; clsid={3F18C116-7BB6-46e4-A649-F6693E577002}
+; DestDir=10
+
+[Setup Hooks]
+ install=install
+
+[install]
+ run=msiexec.exe /i """%EXTRACT_DIR%\ActiveXVideoMsiInstaller.msi""" /qf
+
+; run="""%EXTRACT_DIR%\RunFromCAB.exe""" msiexec.exe /i """%EXTRACT_DIR%\setup.exe"""
+; run="""%EXTRACT_DIR%\RunFromCAB.exe""" """%EXTRACT_DIR%\setup.exe"""
+; run=msiexec.exe /i """%EXTRACT_DIR%\ActiveXVideoWebSetup.msi""" """%OBJECT_DIR%"""
+
+
+ 
+ 

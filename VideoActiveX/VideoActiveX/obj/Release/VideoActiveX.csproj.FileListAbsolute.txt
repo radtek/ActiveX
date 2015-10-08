@@ -1,0 +1,4 @@
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\VideoActiveX\bin\VideoActiveX.dll
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\VideoActiveX\obj\Release\VideoActiveX.dll
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\VideoActiveX\bin\VideoActiveX.pdb
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\VideoActiveX\obj\Release\VideoActiveX.pdb

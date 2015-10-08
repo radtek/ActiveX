@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2d929c43-e020-4906-be79-04ac7d857591" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://biooffice/WcfSiteConfigurationService/ConfigurationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ConfigurationService.wsdl" MetadataType="Wsdl" ID="c73e45fa-5c3a-4a10-9f8c-168824af16fc" SourceId="1" SourceUrl="http://biooffice/WcfSiteConfigurationService/ConfigurationService.svc?wsdl" />
+    <MetadataFile FileName="ConfigurationService.xsd" MetadataType="Schema" ID="7a233862-4c45-43ff-9a71-09b277ddfe65" SourceId="1" SourceUrl="http://biooffice/WcfSiteConfigurationService/ConfigurationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ConfigurationService1.xsd" MetadataType="Schema" ID="44586f54-9ed9-4419-90f8-4ae45cc02298" SourceId="1" SourceUrl="http://biooffice/WcfSiteConfigurationService/ConfigurationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ConfigurationService.disco" MetadataType="Disco" ID="3936347d-3b8e-41bd-8485-b8b7ecdddd68" SourceId="1" SourceUrl="http://biooffice/WcfSiteConfigurationService/ConfigurationService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

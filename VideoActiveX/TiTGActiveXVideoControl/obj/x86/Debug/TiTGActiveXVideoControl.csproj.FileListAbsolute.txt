@@ -1,0 +1,8 @@
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Debug\TiTGActiveXVideoControl.dll.config
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Debug\TiTGActiveXVideoControl.dll
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Debug\TiTGActiveXVideoControl.pdb
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Debug\TiTGActiveXVideoControl.Properties.Resources.resources
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Debug\TiTGActiveXVideoControl.VideoControl.resources
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Debug\TiTGActiveXVideoControl.csproj.GenerateResource.Cache
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Debug\TiTGActiveXVideoControl.dll
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Debug\TiTGActiveXVideoControl.pdb

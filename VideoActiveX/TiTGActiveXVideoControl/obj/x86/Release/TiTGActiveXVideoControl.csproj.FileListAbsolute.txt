@@ -1,0 +1,17 @@
+C:\MicrosofProjects\video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.Properties.Resources.resources
+C:\MicrosofProjects\video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.VideoControl.resources
+C:\MicrosofProjects\video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.csproj.GenerateResource.Cache
+C:\MicrosofProjects\video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.dll
+C:\MicrosofProjects\video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.pdb
+C:\MicrosofProjects\video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Release\GrabImage.dll
+C:\MicrosofProjects\video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Release\TiTGActiveXVideoControl.dll
+C:\MicrosofProjects\video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Release\TiTGActiveXVideoControl.pdb
+C:\MicrosofProjects\video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Release\TiTGActiveXVideoControl.dll.config
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Release\TiTGActiveXVideoControl.dll.config
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Release\TiTGActiveXVideoControl.dll
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\x86\Release\TiTGActiveXVideoControl.pdb
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.Properties.Resources.resources
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.VideoControl.resources
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.csproj.GenerateResource.Cache
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.dll
+C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\TiTGActiveXVideoControl\obj\x86\Release\TiTGActiveXVideoControl.pdb

@@ -1,0 +1,10 @@
+C:\MicrosoftProjects\ActiveX\VideoActiveX\RunExecutableForCAB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MicrosoftProjects\ActiveX\VideoActiveX\RunExecutableForCAB\bin\Debug\RunFromCAB.exe
+C:\MicrosoftProjects\ActiveX\VideoActiveX\RunExecutableForCAB\bin\Debug\RunFromCAB.pdb
+C:\MicrosoftProjects\ActiveX\VideoActiveX\RunExecutableForCAB\obj\x86\Debug\RunFromCAB.exe
+C:\MicrosoftProjects\ActiveX\VideoActiveX\RunExecutableForCAB\obj\x86\Debug\RunFromCAB.pdb
+C:\Microsoft Projects\ActiveX\VideoActiveX\RunExecutableForCAB\bin\Debug\RunFromCAB.exe
+C:\Microsoft Projects\ActiveX\VideoActiveX\RunExecutableForCAB\bin\Debug\RunFromCAB.pdb
+C:\Microsoft Projects\ActiveX\VideoActiveX\RunExecutableForCAB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Microsoft Projects\ActiveX\VideoActiveX\RunExecutableForCAB\obj\x86\Debug\RunFromCAB.exe
+C:\Microsoft Projects\ActiveX\VideoActiveX\RunExecutableForCAB\obj\x86\Debug\RunFromCAB.pdb

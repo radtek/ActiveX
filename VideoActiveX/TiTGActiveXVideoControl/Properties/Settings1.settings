@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TiTGActiveXVideoControl.Properties" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="AzureVisitorsConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=y05ftzs9gm.database.windows.net;Database=sbs_azure;Encrypt=True;</Value>
+    </Setting>
+    <Setting Name="LocalVisitorsConnectionString2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=.\SQLExpress;Initial Catalog=SalesBackOffice;Persist Security Info=True;User ID=roman;Password=</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=(local);Initial Catalog=MCCS_Egy;Persist Security Info=True;User ID=sa;Password=psc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
