@@ -1,1 +1,0 @@
-cert2spc.exe TiTG.cer TiTG.spc

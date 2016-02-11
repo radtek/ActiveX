@@ -1,3 +1,0 @@
-regasm /codebase "C:\MicrosoftProjects\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\Debug\TiTGActiveXVideoControl.dll"
-
-regasm /u "C:\MicrosoftProjects\ActiveX\VideoActiveX\TiTGActiveXVideoControl\bin\Debug\TiTGActiveXVideoControl.dll"

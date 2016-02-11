@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunExecutableForCAB", "RunExecutableForCAB\RunExecutableForCAB.csproj", "{CCC038CB-CC78-4061-8BEE-67F91B12936B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiTGActiveXVideoControl", "TiTGActiveXVideoControl\TiTGActiveXVideoControl.csproj", "{9426B33B-6012-4735-AF48-81224E1A29BE}"

@@ -123,23 +123,27 @@
     <Compile Include="WebDataService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App - Copy.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ConfigurationService\ConfigurationService1.disco" />
     <Content Include="TiTGActiveXVideoControl.dll.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <None Include="Copy of App.config">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Properties\Settings1.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
     </None>
     <None Include="psc-com.pfx" />
-    <None Include="Service References\ConfigurationService\ConfigurationService.wsdl" />
-    <None Include="Service References\ConfigurationService\ConfigurationService.xsd">
+    <None Include="Service References\ConfigurationService\ConfigurationService1.wsdl" />
+    <None Include="Service References\ConfigurationService\ConfigurationService2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ConfigurationService\ConfigurationService1.xsd">
+    <None Include="Service References\ConfigurationService\ConfigurationService21.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ConfigurationService\ConfigurationService22.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="TiTGActiveXControlsStrongName.snk" />
@@ -160,9 +164,6 @@
     <WCFMetadataStorage Include="Service References\ConfigurationService\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ConfigurationService\ConfigurationService.disco" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Service References\ConfigurationService\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
@@ -176,7 +177,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>call "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\vcvarsall.bat"
+    <PostBuildEvent>call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"
 signtool.exe sign /f "$(ProjectDir)psc-com.pfx" /p psc123 /t http://timestamp.verisign.com/scripts/timstamp.dll /v "$(BuiltOutputPath)TiTGActiveXVideoControl.dll"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

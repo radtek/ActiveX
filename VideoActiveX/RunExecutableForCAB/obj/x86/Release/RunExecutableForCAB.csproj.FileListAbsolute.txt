@@ -1,7 +1,0 @@
-C:\MicrosofProjects\video\ActiveX\VideoActiveX\RunExecutableForCAB\bin\Release\RunFromCAB.exe.config
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\RunExecutableForCAB\bin\Release\RunFromCAB.exe.config
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\RunExecutableForCAB\bin\Release\RunFromCAB.exe
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\RunExecutableForCAB\bin\Release\RunFromCAB.pdb
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\RunExecutableForCAB\obj\x86\Release\RunExecutableForCAB.csprojResolveAssemblyReference.cache
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\RunExecutableForCAB\obj\x86\Release\RunFromCAB.exe
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\RunExecutableForCAB\obj\x86\Release\RunFromCAB.pdb

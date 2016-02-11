@@ -1,5 +1,0 @@
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\VideoActiveX\bin\VideoActiveX.dll
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\VideoActiveX\bin\VideoActiveX.pdb
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\VideoActiveX\obj\Debug\VideoActiveX.dll
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\VideoActiveX\obj\Debug\VideoActiveX.pdb
-C:\MicrosoftProjects\Video\ActiveX\VideoActiveX\VideoActiveX\obj\Debug\VideoActiveX.csprojResolveAssemblyReference.cache
