@@ -11,6 +11,11 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TiTGActiveXControlInstaller
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoActiveX", "VideoActiveX\VideoActiveX.csproj", "{2D3A90B3-983A-421A-9BC7-D3B195A13FD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestActiveXVideoControl", "TestActiveXVideoControl\TestActiveXVideoControl.csproj", "{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9426B33B-6012-4735-AF48-81224E1A29BE} = {9426B33B-6012-4735-AF48-81224E1A29BE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +63,17 @@ Global
 		{2D3A90B3-983A-421A-9BC7-D3B195A13FD2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2D3A90B3-983A-421A-9BC7-D3B195A13FD2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2D3A90B3-983A-421A-9BC7-D3B195A13FD2}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Debug|Any CPU.Build.0 = Debug|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Debug|x86.ActiveCfg = Debug|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Debug|x86.Build.0 = Debug|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Release|Any CPU.ActiveCfg = Release|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Release|x86.ActiveCfg = Release|x86
+		{DA9311B0-EF19-4C8C-BE88-BEBFB3C8CCA3}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

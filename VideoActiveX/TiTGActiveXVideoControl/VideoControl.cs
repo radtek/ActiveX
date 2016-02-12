@@ -365,10 +365,12 @@ namespace TiTGActiveXVideoControl
                 IDataService client = null;
 
                 IMAGE_TYPE imageType = IMAGE_TYPE.picture;
-                if (GrabImageClient.Helper.getAppSetting("provider") == "directDb")
+                if (GrabImageClient.Helper.getAppSetting("dbProvider") == "dedicatedServer")
                     client = new DbDataService();
-                else if (GrabImageClient.Helper.getAppSetting("provider") == "directWebService")
+                else if (GrabImageClient.Helper.getAppSetting("dbProvider") == "cloudServer")
                     client = new WebDataService();
+                else
+                    throw new Exception("Wrong database provider settings");
 
                 //var client = new WebServiceClient();
                 client.SendImage(imageType, id, ref buffer);
@@ -439,10 +441,12 @@ namespace TiTGActiveXVideoControl
 
             try
             {
-                if (GrabImageClient.Helper.getAppSetting("provider") == "directDb")
+                if (GrabImageClient.Helper.getAppSetting("dbProvider") == "dedicatedServer")
                     client = new DbDataService();
-                else if (GrabImageClient.Helper.getAppSetting("provider") == "directWebService")
+                else if (GrabImageClient.Helper.getAppSetting("dbProvider") == "cloudServer")
                     client = new WebDataService();
+                else
+                    throw new Exception("Wrong database provider settings");
 
                 buffer = client.GetImage(imageType, id);
 

@@ -29,7 +29,7 @@ namespace GrabImageClient
             binding.Name = "BasicHttpBinding_IConfigurationService";
             binding.MessageEncoding = WSMessageEncoding.Mtom;
 
-            //EndpointAddress endpointAddress = new EndpointAddress("http://biooffice/WcfSiteConfigurationService/ConfigurationService.svc");
+            //EndpointAddress endpointAddress = new EndpointAddress("http://pscservice/CommonService/ConfigurationService.svc");
             var assemly = System.Reflection.Assembly.GetExecutingAssembly();
             var configuration = ConfigurationManager.OpenExeConfiguration(assemly.Location);
             string url = configuration.AppSettings.Settings["siteConfigurationServiceUrl"].Value;

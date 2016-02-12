@@ -55,6 +55,10 @@
 
     function startVideo() {
         myVideo.StartAxVideoControl();
+
+        ret = myVideo.GetIt("20005140");
+
+
         //document.myVideo.Background = "#e8e8e8";
         //myVideo.MyTitle = form1.txt.value;
         //document.myVideo.Open();
