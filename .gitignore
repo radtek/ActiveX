@@ -1,0 +1,16 @@
+obj
+bin
+*.config
+/VideoActiveX/TiTGActiveXVideoControl/TiTGActiveXControlsStrongName.snk
+/VideoActiveX/TiTGActiveXVideoControl/TiTGActiveXVideoControl.dll.config
+/VideoActiveX/TiTGActiveXVideoControl/App - Copy.config
+/VideoActiveX/TiTGActiveXVideoControl/psc-com.pfx
+/VideoActiveX/VideoActiveX/psc-com.cer
+Release
+Debug
+/VideoActiveX/TiTGActiveXControlInstaller/psc-com.pfx
+/VideoActiveX/TiTGActiveXControlInstaller/rid50_azure.pfx
+/VideoActiveX/TiTGActiveXControlInstaller/TiTG.pfx
+/VideoActiveX/TiTGActiveXControlInstaller/psc-co.pfx
+CabSigning
+RunExecutableForCAB

@@ -4,6 +4,7 @@ using System.IO;
 using System.Configuration;
 using System.ServiceModel;
 using TiTGActiveXVideoControl.ConfigurationService;
+using System;
 //using System;
 
 namespace GrabImageClient
@@ -107,8 +108,46 @@ namespace GrabImageClient
 
         internal static string getConnectionString(string name = "ConnectionString")
         {
+            string conn = configurationServiceClient.getConnectionString(name);
+            try
+            {
+                string server = "Server=";
+                int index1 = conn.IndexOf(server);
+                if (index1 == -1)
+                {
+                    server = "Data Source=";
+                    index1 = conn.IndexOf(server);
+                }
+
+                if (index1 == -1)
+                    throw new Exception("The database connection string is not valid");
+
+                int index2 = conn.IndexOf(";", index1);
+
+                int indx = index1 + server.Length;
+                if (configurationServiceClient.Endpoint.Address.Uri.Host != "localhost" && (conn.Substring(indx, index2 - indx) == "(local)" || conn.Substring(indx, index2 - indx) == "localhost"))
+                {
+                    var str = new System.Text.StringBuilder();
+                    str.Append(conn.Substring(0, indx));
+                    str.Append(configurationServiceClient.Endpoint.Address.Uri.Host);
+                    if (index2 != -1)
+                        str.Append(conn.Substring(index2));
+                    conn = str.ToString();
+                }
+                //System.Diagnostics.Debug.WriteLine("4: {0}: {1} us", conn2, stw.ElapsedTicks * 1000000 / System.Diagnostics.Stopwatch.Frequency);
+                //System.Diagnostics.Debug.WriteLine("4: {0}: {1} ms", conn2, stw.Elapsed.TotalMilliseconds);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+                ///throw new Exception("Connection to a database is not available");
+            }
+
+            return conn;
+            //return configurationServiceClient.getConnectionString(name);
+
             //return ConfigurationManager.ConnectionStrings["ConnectionString"].ToString();
-            return configurationServiceClient.getConnectionString(name);
+
 
             //string connectionString = null;
             //var connectionStringSettings = ConfigurationManager.ConnectionStrings[name];
